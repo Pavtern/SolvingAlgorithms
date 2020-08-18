@@ -23,8 +23,8 @@
 //    }
 //}
 public class StringBits{
-    public String str = "Heeololeo";
-    public String result = "";
+    String str = "Heeololeo";
+    String result = "";
     public static void main(String[] args) {
         StringBits stringBits = new StringBits();
         stringBits.setResult();
