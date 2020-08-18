@@ -8,10 +8,10 @@ Given a string, return the count of the number of times that a substring length 
 */
 
 public class Last2 {
-    String str = "axxxaaxx";
+    String str = "";
     int result = 0;
     int len = str.length();
-    String end = str.substring(len - 2, len);
+
 
     public static void main(String[] args) {
         Last2 last2 = new Last2();
@@ -20,10 +20,13 @@ public class Last2 {
     }
 
     void setResult() {
-        for (int i = 0; i < str.length()-2; i++) {
-            System.out.println(str.substring(i, i + 2));
-            if (str.substring(i, i + 2).equals(end)) {
-                result++;
+        if(len > 2) {
+            String end = str.substring(len - 2, len);
+            for (int i = 0; i < str.length() - 2; i++) {
+                System.out.println(str.substring(i, i + 2));
+                if (str.substring(i, i + 2).equals(end)) {
+                    result++;
+                }
             }
         }
     }
