@@ -1,4 +1,4 @@
-/*Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
+package CodingBat;/*Given a string, return a new string made of every other char starting with the first, so "Hello" yields "Hlo".
 
 
         stringBits("Hello") → "Hlo"
@@ -6,7 +6,7 @@
         stringBits("Heeololeo") → "Hello"*/
 
 //
-//public class StringBits {
+//public class CodingBat.StringBits {
 //    public String str = "Heeololeo";
 //    String result = "";
 //    public static void main (String) {

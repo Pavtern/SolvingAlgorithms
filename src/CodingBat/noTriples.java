@@ -1,3 +1,5 @@
+package CodingBat;
+
 public class noTriples {
     int[] nums = {1,1,1};
     int n = 0;

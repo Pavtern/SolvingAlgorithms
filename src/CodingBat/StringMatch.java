@@ -1,3 +1,5 @@
+package CodingBat;
+
 public class StringMatch {
     String a = "xxcaazz";
     String b = "xxbaazx";

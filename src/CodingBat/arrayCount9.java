@@ -1,9 +1,9 @@
-/*Given an array of ints, return the number of 9's in the array.
+package CodingBat;/*Given an array of ints, return the number of 9's in the array.
 
 
-        arrayCount9([1, 2, 9]) → 1
-        arrayCount9([1, 9, 9]) → 2
-        arrayCount9([1, 9, 9, 3, 9]) → 3*/
+        CodingBat.arrayCount9([1, 2, 9]) → 1
+        CodingBat.arrayCount9([1, 9, 9]) → 2
+        CodingBat.arrayCount9([1, 9, 9, 3, 9]) → 3*/
 
 
 
@@ -14,7 +14,7 @@ public class arrayCount9 {
     public static void main(String[] args) {
         arrayCount9 arrayCount9 = new arrayCount9();
         arrayCount9.setResult();
-        //arrayCount9.getResult();
+        //CodingBat.arrayCount9.getResult();
     }
 
     void setResult(){
